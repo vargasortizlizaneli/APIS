@@ -11,27 +11,15 @@
 <body class="bg-body-tertiary">
   <header class="bg-dark text-white border-bottom">
     <div class="container py-4 py-md-5">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-        <span class="fw-bold">EXPLORADOR / APIS</span>
-        <span class="badge rounded-pill text-bg-light">Programación Web III</span>
-      </div>
-      <p class="text-info text-uppercase small fw-semibold mb-2">Un clic, un nuevo descubrimiento</p>
       <h1 class="display-5 fw-bold">Explorador de contenido aleatorio</h1>
-      <p class="lead text-white-50 mb-0">Una idea, dos nuevos amigos y algo que no sabías. ¿Qué descubrirás hoy?</p>
     </div>
   </header>
   <main class="container py-4">
-    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
-      <h2 class="h5 mb-0">Tu dosis de descubrimientos</h2>
-      <span class="text-body-secondary small">Cada tarjeta se actualiza por separado</span>
-    </div>
     <div class="row g-4">
       <section class="col-12 col-md-6 col-xl-3" aria-labelledby="titulo-citas">
         <div id="citas" class="card h-100 border-0 shadow-sm">
           <div class="card-body d-flex flex-column p-4">
-            <span class="badge text-bg-primary align-self-start mb-3">01 / INSPIRACIÓN</span>
             <h2 id="titulo-citas" class="h4">Citas y autores</h2>
-            <p class="text-body-secondary small">Una perspectiva para tu día.</p>
             <div data-contenido class="flex-grow-1 d-flex flex-column justify-content-center py-3" hidden>
               <figure class="mb-0"><blockquote class="blockquote"><p id="texto-cita" lang="en"></p></blockquote><figcaption id="autor-cita" class="blockquote-footer mt-3"></figcaption></figure>
             </div>
@@ -44,9 +32,7 @@
       <section class="col-12 col-md-6 col-xl-3" aria-labelledby="titulo-perros">
         <div id="perros" class="card h-100 border-0 shadow-sm">
           <div class="card-body d-flex flex-column p-4">
-            <span class="badge text-bg-success align-self-start mb-3">02 / COMPAÑÍA</span>
             <h2 id="titulo-perros" class="h4">Perros</h2>
-            <p class="text-body-secondary small">Siempre hay uno por conocer.</p>
             <div data-contenido class="ratio ratio-4x3 bg-body-tertiary rounded overflow-hidden mb-3" hidden><img id="imagen-perro" class="w-100 h-100 object-fit-contain" alt="Perro seleccionado aleatoriamente por Dog CEO"></div>
             <p data-estado role="status" aria-live="polite" class="small text-body-secondary">Cargando…</p>
             <button type="button" class="btn btn-success w-100 mt-auto">Mostrar otro perro</button>
@@ -57,9 +43,7 @@
       <section class="col-12 col-md-6 col-xl-3" aria-labelledby="titulo-gatos">
         <div id="gatos" class="card h-100 border-0 shadow-sm">
           <div class="card-body d-flex flex-column p-4">
-            <span class="badge text-bg-warning align-self-start mb-3">03 / CURIOSIDAD</span>
             <h2 id="titulo-gatos" class="h4">Gatos</h2>
-            <p class="text-body-secondary small">El protagonista de Internet.</p>
             <div data-contenido class="ratio ratio-4x3 bg-body-tertiary rounded overflow-hidden mb-3" hidden><img id="imagen-gato" class="w-100 h-100 object-fit-contain" alt="Gato seleccionado aleatoriamente por CATAAS"></div>
             <p data-estado role="status" aria-live="polite" class="small text-body-secondary">Cargando…</p>
             <button type="button" class="btn btn-warning w-100 mt-auto">Mostrar otro gato</button>
@@ -70,9 +54,7 @@
       <section class="col-12 col-md-6 col-xl-3" aria-labelledby="titulo-datos">
         <div id="datos" class="card h-100 border-0 shadow-sm">
           <div class="card-body d-flex flex-column p-4">
-            <span class="badge text-bg-info align-self-start mb-3">04 / APRENDIZAJE</span>
             <h2 id="titulo-datos" class="h4">Datos curiosos</h2>
-            <p class="text-body-secondary small">Algo nuevo para compartir.</p>
             <div data-contenido class="flex-grow-1 d-flex align-items-center py-3" hidden><p id="texto-dato" class="fs-5" lang="en"></p></div>
             <p data-estado role="status" aria-live="polite" class="small text-body-secondary">Cargando…</p>
             <button type="button" class="btn btn-info w-100 mt-auto">Mostrar otro dato</button>
@@ -82,8 +64,7 @@
       </section>
     </div>
     <noscript><div class="alert alert-warning mt-4">Activa JavaScript para consultar las cuatro APIs.</div></noscript>
-    <p class="small text-body-secondary mt-4">El contenido proviene de APIs públicas y puede repetirse. Las citas y los datos se muestran en inglés.</p>
   </main>
-  <footer class="container border-top py-3 text-body-secondary small">Programación Web III · Conexión API · HTML + Bootstrap + JavaScript</footer>
 </body>
 </html>
+
